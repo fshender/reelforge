@@ -15,12 +15,6 @@ ReelForge turns any blog URL or pasted text into **3 video scripts**, **caption 
 pip install -r requirements.txt
 streamlit run app.py
 ```
-
-## Monetization (this month)
-- Use Stripe **Payment Link** (no backend needed). Free preview allows one script; paywall unlocks export + all variants.
-- Price ideas: $29/mo, or **$49 lifetime for first 100 users** to hit $1k+ quickly.
-- Pair with a Gumroad / LemonSqueezy fallback link in `STRIPE_CHECKOUT_URL` if needed.
-
 ## Features
 - URL scraping via `readability-lxml` + requests; or paste raw text.
 - Presets for platforms: **TikTok, Reels, YT Shorts** (timed beats, hook-first).
