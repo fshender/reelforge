@@ -1,0 +1,7 @@
+streamlit==1.38.0
+openai==1.51.2
+requests==2.32.3
+readability-lxml==0.8.1
+beautifulsoup4==4.12.3
+pydantic==2.9.2
+tiktoken==0.7.0
